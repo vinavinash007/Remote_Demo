@@ -23,7 +23,7 @@ jobs:
 
       - name: Show branch name
         run: echo "Branch is $GITHUB_REF_NAME"
-              - name: Simulate build
+      - name: Simulate build
         run: |
           echo "Starting build..."
           mkdir build-output
