@@ -18,3 +18,8 @@ jobs:
 
       - name: List files
         run: ls -la
+      - name: Show current date
+        run: date
+
+      - name: Show branch name
+        run: echo "Branch is $GITHUB_REF_NAME"
